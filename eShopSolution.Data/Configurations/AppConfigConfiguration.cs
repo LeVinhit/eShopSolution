@@ -11,7 +11,9 @@ namespace eShopSolution.Data.Configurations
         public void Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder<AppConfig> builder)
         {
             builder.ToTable("AppConfigs");
+
             builder.HasKey(x => x.Key);
+
             builder.Property(x => x.Value).IsRequired(true);
         }
     }

@@ -10,6 +10,8 @@
 - Microsoft.EntityFrameworkCore.Design
 - Microsoft.EntityFrameworkCore.Tools
 - Microsoft.AspNetCore.Identity.EntityFrameworkCore
+- Microsoft.Extensions.Configuration.FileExtensions
+- Microsoft.Extensions.Configuration.Json
 ## Install Tools
 - .NET Core SDK 3.1
 - Git client
